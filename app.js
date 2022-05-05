@@ -21,7 +21,7 @@ let startGame = () => {
     
    
      if (yourInput.value == null || yourInput.value < 1 || yourInput.value > 5 || yourInput.value == "") {
-        document.querySelector('.dem').innerHTML = 'Oga type a Number ranging from 1-5!';
+        document.querySelector('.dem').innerHTML = 'Type a Number ranging from 1-5!';
         Numberr.innerHTML = '?'
         guessOutput.innerHTML = ''
         keepGuesing.innerHTML = ''
